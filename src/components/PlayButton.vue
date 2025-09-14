@@ -1,8 +1,8 @@
 <template>
   <a
     href="https://www.youtube.com/watch?v=NpEaa2P7qZI"
-    target="_blank"
-    class="d-flex justify-content-center"
+    class="d-flex justify-content-center glightbox"
+    data-type="video"
   >
     <div class="video-icon d-flex align-items-center justify-content-center">
       <i class="bi bi-play-fill"></i>
@@ -10,7 +10,27 @@
   </a>
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted, onBeforeUnmount } from 'vue';
+import GLightbox from 'glightbox';
+import 'glightbox/dist/css/glightbox.css';
+
+let lightbox = null;
+
+onMounted(() => {
+  lightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
+  });
+});
+
+onBeforeUnmount(() => {
+  if (lightbox) {
+    lightbox.destroy();
+  }
+});
+</script>
 
 <style scoped>
 .video-icon {
