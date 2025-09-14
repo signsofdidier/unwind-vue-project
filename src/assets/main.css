@@ -1,0 +1,68 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+/* Root colors & font-families */
+:root {
+  --body-white: #f8f8f8;
+  --dark-gray: #222222;
+  --text-gray: #999999;
+  --gold: #c5a880;
+  --black: rgba(0, 0, 0, 0.8);
+
+  --nunito: 'Nunito', Arial, sans-serif;
+  --old: 'Old Standard TT', Arial, serif;
+}
+
+.bg-gold {
+  background-color: var(--gold) !important;
+}
+
+.text-gold {
+  color: #c5a880 !important;
+}
+
+.text-gray {
+  color: #999999 !important;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--body-white);
+}
+
+/* Font-families */
+h1,
+h2,
+h3 {
+  font-family: 'Old Standard TT', serif;
+}
+
+p {
+  font-family: 'Nunito', Arial, sans-serif;
+}
+
+.subheading {
+  font-family: 'Nunito', Arial, sans-serif;
+}
+
+/* Font-sizes */
+
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 64px;
+}
+h3 {
+  font-size: 24px;
+}
+
+p {
+  font-size: 16px;
+}
+
+.subheading {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
