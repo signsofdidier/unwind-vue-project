@@ -27,12 +27,14 @@ import HelloWorld from './components/HelloWorld.vue'
   <SmallCtoComponent />
   <FeaturedRooms />
   <VideoSection />
+  <RestaurantSection />
 </template>
 
 <script setup>
 import AboutUs from './components/AboutUs.vue';
 import FeaturedRooms from './components/FeaturedRooms.vue';
 import MainHeader from './components/MainHeader.vue';
+import RestaurantSection from './components/RestaurantSection.vue';
 import ServicesComponent from './components/ServicesComponent.vue';
 import SmallCtoComponent from './components/SmallCtoComponent.vue';
 import VideoSection from './components/VideoSection.vue';

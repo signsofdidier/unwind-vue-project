@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Grilled Beef with potatoes",
+    "price": "$20.00",
+    "image": "/images/menu-1.jpg"
+  },
+  {
+    "name": "Roasted Salmon with Veggies",
+    "price": "$18.50",
+    "image": "/images/menu-2.jpg"
+  },
+  {
+    "name": "Italian Pasta Carbonara",
+    "price": "$15.00",
+    "image": "/images/menu-3.jpg"
+  },
+  {
+    "name": "Caesar Salad with Chicken",
+    "price": "$12.00",
+    "image": "/images/menu-4.jpg"
+  },
+  {
+    "name": "Chocolate Lava Cake",
+    "price": "$9.50",
+    "image": "/images/menu-5.jpg"
+  },
+  {
+    "name": "Margherita Pizza",
+    "price": "$14.00",
+    "image": "/images/menu-6.jpg"
+  },
+  {
+    "name": "Grilled Shrimp Skewers",
+    "price": "$17.00",
+    "image": "/images/menu-7.jpg"
+  },
+  {
+    "name": "Fruit Parfait",
+    "price": "$8.50",
+    "image": "/images/menu-8.jpg"
+  }
+]
