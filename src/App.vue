@@ -28,6 +28,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <FeaturedRooms />
   <VideoSection />
   <RestaurantSection />
+  <TestimonialComponent />
 </template>
 
 <script setup>
@@ -37,6 +38,7 @@ import MainHeader from './components/MainHeader.vue';
 import RestaurantSection from './components/RestaurantSection.vue';
 import ServicesComponent from './components/ServicesComponent.vue';
 import SmallCtoComponent from './components/SmallCtoComponent.vue';
+import TestimonialComponent from './components/TestimonialComponent.vue';
 import VideoSection from './components/VideoSection.vue';
 </script>
 
