@@ -66,7 +66,15 @@ onMounted(async () => {
 }
 .menu-big-image {
   position: relative;
+  /* max-height: 536px; */
 }
+
+@media (min-width: 1760px) {
+  .menu-big-image {
+    max-height: 536px;
+  }
+}
+
 .menu-big-image img {
   object-fit: cover;
   filter: brightness(0.7) contrast(1.1);

@@ -29,10 +29,12 @@ import HelloWorld from './components/HelloWorld.vue'
   <VideoSection />
   <RestaurantSection />
   <TestimonialComponent />
+  <CounterComponent />
 </template>
 
 <script setup>
 import AboutUs from './components/AboutUs.vue';
+import CounterComponent from './components/CounterComponent.vue';
 import FeaturedRooms from './components/FeaturedRooms.vue';
 import MainHeader from './components/MainHeader.vue';
 import RestaurantSection from './components/RestaurantSection.vue';
