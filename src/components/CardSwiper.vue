@@ -1,6 +1,6 @@
 <template>
   <swiper
-    :slides-per-view="3"
+    :slides-per-view="1"
     :space-between="30"
     :pagination="{ clickable: true }"
     :modules="modules"
@@ -31,7 +31,7 @@
           </div>
         </div>
 
-        <div class="card-body">
+        <div class="card-body h-100">
           <p class="card-text mb-0 pb-0">
             {{ item.testimonial }}
           </p>
