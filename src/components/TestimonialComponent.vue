@@ -2,12 +2,12 @@
   <section class="testimonial-section">
     <div class="container-xl">
       <!-- titels -->
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mb-5">
         <div class="col-xl-8 text-center">
           <div class="subheading text-uppercase text-gold fw-semibold mb-3">
             Testimonial
           </div>
-          <h2 class="mb-5">Happy Guests</h2>
+          <h2 class="mb-4">Happy Guests</h2>
         </div>
       </div>
 

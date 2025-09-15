@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "title": "Best Hotel Near Beach in Hawaii",
+    "description": "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
+    "image": "/images/image_1.jpg",
+    "author": "Admin",
+    "created_at": "September 15, 2025"
+  },
+  {
+    "id": "2",
+    "title": "Top 10 Romantic Destinations for Couples",
+    "description": "Discover the most enchanting places for a romantic getaway, from hidden beaches to mountain retreats.",
+    "image": "/images/image_2.jpg",
+    "author": "Jane Doe",
+    "created_at": "August 30, 2025"
+  },
+  {
+    "id": "3",
+    "title": "A Culinary Journey Through Italy",
+    "description": "Taste your way through the best pasta, pizza, and gelato spots across the Italian countryside.",
+    "image": "/images/image_3.jpg",
+    "author": "Admin",
+    "created_at": "July 22, 2025"
+  },
+  {
+    "id": "4",
+    "title": "5 Luxury Resorts You Must Visit in 2025",
+    "description": "From overwater bungalows in the Maldives to eco-lodges in Costa Rica, experience the height of luxury.",
+    "image": "/images/image_4.jpg",
+    "author": "Michael Scott",
+    "created_at": "June 10, 2025"
+  },
+  {
+    "id": "5",
+    "title": "Why Bali Should Be on Your Bucket List",
+    "description": "Explore Bali’s lush rice terraces, temples, and pristine beaches that attract travelers worldwide.",
+    "image": "/images/image_1.jpg",
+    "author": "Jane Doe",
+    "created_at": "May 2, 2025"
+  },
+  {
+    "id": "6",
+    "title": "Travel Hacks to Save Money on Flights",
+    "description": "Learn insider tips for finding cheap flights, from flexible dates to using hidden city ticketing.",
+    "image": "/images/image_2.jpg",
+    "author": "Admin",
+    "created_at": "April 19, 2025"
+  },
+  {
+    "id": "7",
+    "title": "Exploring the Hidden Gems of Japan",
+    "description": "Step off the beaten path and visit charming towns, ancient shrines, and stunning natural landscapes.",
+    "image": "/images/image_3.jpg",
+    "author": "Samantha Lee",
+    "created_at": "March 8, 2025"
+  },
+  {
+    "id": "8",
+    "title": "How to Plan the Perfect Road Trip",
+    "description": "From packing essentials to route planning, discover how to make your next road trip unforgettable.",
+    "image": "/images/image_4.jpg",
+    "author": "Admin",
+    "created_at": "January 25, 2025"
+  }
+]

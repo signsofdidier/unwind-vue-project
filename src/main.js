@@ -14,10 +14,13 @@ import router from './router';
 import Glightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.css';
 
-// Tiny Slider
-import { tns } from 'tiny-slider/src/tiny-slider';
-// Import Tiny Slider CSS
-import 'tiny-slider/dist/tiny-slider.css';
+// Swiper
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Swiper CSS (basis + modules die ik vaak gebruik)
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 const app = createApp(App);
 
@@ -28,9 +31,9 @@ const lightbox = Glightbox({
 });
 app.config.globalProperties.$glightbox = lightbox;
 
-// Tiny slider
-// Maak tns globaal beschikbaar
-app.config.globalProperties.$tns = tns;
+// Swiper globaal registreren
+app.component('Swiper', Swiper);
+app.component('SwiperSlide', SwiperSlide);
 
 app.use(createPinia());
 app.use(router);
