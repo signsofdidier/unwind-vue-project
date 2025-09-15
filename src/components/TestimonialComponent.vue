@@ -1,6 +1,7 @@
 <template>
-  <section>
+  <section class="testimonial-section">
     <div class="container-xl">
+      <!-- titels -->
       <div class="row justify-content-center">
         <div class="col-xl-8 text-center">
           <div class="subheading text-uppercase text-gold fw-semibold mb-3">
@@ -9,10 +10,19 @@
           <h2 class="mb-5">Happy Guests</h2>
         </div>
       </div>
+
+      <!-- Swiper slider -->
+      <CardSwiper />
     </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import CardSwiper from './CardSwiper.vue';
+</script>
 
-<style scoped></style>
+<style scoped>
+.testimonial-section {
+  padding: 8em 0;
+}
+</style>

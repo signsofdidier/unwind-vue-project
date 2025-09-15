@@ -14,6 +14,11 @@ import router from './router';
 import Glightbox from 'glightbox';
 import 'glightbox/dist/css/glightbox.css';
 
+// Tiny Slider
+import { tns } from 'tiny-slider/src/tiny-slider';
+// Import Tiny Slider CSS
+import 'tiny-slider/dist/tiny-slider.css';
+
 const app = createApp(App);
 
 // glightbox
@@ -22,6 +27,10 @@ const lightbox = Glightbox({
   loop: true,
 });
 app.config.globalProperties.$glightbox = lightbox;
+
+// Tiny slider
+// Maak tns globaal beschikbaar
+app.config.globalProperties.$tns = tns;
 
 app.use(createPinia());
 app.use(router);
