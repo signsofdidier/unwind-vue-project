@@ -30,7 +30,8 @@ const blogItems = ref([]);
 
 onMounted(async () => {
   try {
-    const response = await axios.get('/blogs.json');
+    // BASE_URL verwijst naar '/root/' in mijn setup
+    const response = await axios.get(import.meta.env.BASE_URL + 'blogs.json');
     blogItems.value = response.data;
   } catch (error) {
     console.error('Fout bij ophalen van blog:', error);

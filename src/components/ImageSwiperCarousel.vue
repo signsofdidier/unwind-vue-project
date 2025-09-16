@@ -52,23 +52,23 @@ onMounted(() => {
 
 const carouselItems = ref([
   {
-    image: '/images/gallery-1.jpg',
+    image: import.meta.env.BASE_URL + 'images/gallery-1.jpg',
     alt: 'Beautiful Hotel Room',
   },
   {
-    image: '/images/gallery-2.jpg',
+    image: import.meta.env.BASE_URL + 'images/gallery-2.jpg',
     alt: 'Beautiful Hotel Room',
   },
   {
-    image: '/images/gallery-3.jpg',
+    image: import.meta.env.BASE_URL + 'images/gallery-3.jpg',
     alt: 'Beautiful Hotel Room',
   },
   {
-    image: '/images/gallery-4.jpg',
+    image: import.meta.env.BASE_URL + 'images/gallery-4.jpg',
     alt: 'Beautiful Hotel Room',
   },
   {
-    image: '/images/gallery-5.jpg',
+    image: import.meta.env.BASE_URL + 'images/gallery-5.jpg',
     alt: 'Beautiful Hotel Room',
   },
 ]);
