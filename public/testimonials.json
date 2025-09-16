@@ -3,42 +3,42 @@
     "id": "1",
     "name": "Roger Scott",
     "position": "Marketing Manager",
-    "image": "/images/person_1.jpg",
+    "image": "./images/person_1.jpg",
     "testimonial": "The hotel exceeded all my expectations; from the warm welcome at reception to the luxurious rooms, everything was perfect."
   },
   {
     "id": "2",
     "name": "Emily Johnson",
     "position": "Graphic Designer",
-    "image": "/images/person_2.jpg",
+    "image": "./images/person_2.jpg",
     "testimonial": "Every detail of our stay was thoughtfully designed, from the serene garden views to the exquisite breakfast options each morning."
   },
   {
     "id": "3",
     "name": "Michael Lee",
     "position": "Software Developer",
-    "image": "/images/person_3.jpg",
+    "image": "./images/person_3.jpg",
     "testimonial": "I loved the friendly staff and the comfortable, stylish rooms; the hotel truly felt like a home away from home."
   },
   {
     "id": "4",
     "name": "Sophia Martinez",
     "position": "UX Specialist",
-    "image": "/images/person_1.jpg",
+    "image": "./images/person_1.jpg",
     "testimonial": "Staying here was a delightful experience — peaceful ambiance, elegant decor, and impeccable service made it unforgettable."
   },
   {
     "id": "5",
     "name": "David Kim",
     "position": "Project Manager",
-    "image": "/images/person_2.jpg",
+    "image": "./images/person_2.jpg",
     "testimonial": "From the moment we arrived, we felt pampered; every meal, every detail of the room, and the spa wad exceptional."
   },
   {
     "id": "6",
     "name": "Olivia Brown",
     "position": "Content Strategist",
-    "image": "/images/person_3.jpg",
+    "image": "./images/person_3.jpg",
     "testimonial": "The hotel combined modern luxury with local charm; quiet corners to relax, breathtaking views, and staff who genuinely care."
   }
 ]
