@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /unwind/
+          server-dir: /www/unwind/
           protocol: ftp
           passive: true
           max-async-requests: 1
