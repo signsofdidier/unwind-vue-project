@@ -52,7 +52,6 @@ const menuItems = ref([]);
 
 onMounted(async () => {
   try {
-    // BASE_URL verwijst naar '/root/' in mijn setup
     const response = await axios.get('./menu.json'); // haalt JSON op uit public folder
     menuItems.value = response.data;
   } catch (error) {

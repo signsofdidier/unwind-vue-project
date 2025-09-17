@@ -60,9 +60,7 @@ const testimonials = ref([]);
 onMounted(async () => {
   try {
     // BASE_URL verwijst naar '/root/' in mijn setup
-    const response = await axios.get(
-      import.meta.env.BASE_URL + 'testimonials.json'
-    );
+    const response = await axios.get('./testimonials.json');
     testimonials.value = response.data;
   } catch (error) {
     console.error('Fout bij het ophalen van testimonials', error);

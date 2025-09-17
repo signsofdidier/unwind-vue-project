@@ -32,6 +32,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <CounterComponent />
   <BlogSection />
   <ImageSwiperCarousel />
+  <FooterComponent />
 </template>
 
 <script setup>
@@ -39,6 +40,7 @@ import AboutUs from './components/AboutUs.vue';
 import BlogSection from './components/BlogSection.vue';
 import CounterComponent from './components/CounterComponent.vue';
 import FeaturedRooms from './components/FeaturedRooms.vue';
+import FooterComponent from './components/FooterComponent.vue';
 import ImageSwiperCarousel from './components/ImageSwiperCarousel.vue';
 import MainHeader from './components/MainHeader.vue';
 import RestaurantSection from './components/RestaurantSection.vue';

@@ -7,8 +7,7 @@
   --dark-gray: #222222;
   --text-gray: #999999;
   --gold: #c5a880;
-  --black: rgba(0, 0, 0, 0.8);
-
+  --black: rgb(26, 26, 26);
   --nunito: 'Nunito', Arial, sans-serif;
   --old: 'Old Standard TT', Arial, serif;
 }
