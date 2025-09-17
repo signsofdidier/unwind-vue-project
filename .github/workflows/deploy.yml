@@ -1,41 +1,36 @@
-name: Deploy unwind Vue 3 App
+name: Deploy to Combell
+
 on:
   push:
     branches:
       - main
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      # 1. Haal de code op uit de repository
-      - name: Checkout repository
-        uses: actions/checkout@v4
-      
-      # 2. Installeer Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-      
-      # 3. Installeer dependencies
+      # 1️⃣ Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2️⃣ Install dependencies
       - name: Install dependencies
-        run: npm ci
-      
-      # 4. Build de applicatie
-      - name: Build application
+        run: npm install
+
+      # 3️⃣ Build project
+      - name: Build project
         run: npm run build
-      
-      # 5. Upload naar de specifieke map op de FTP-server
-      - name: Upload to FTP
+
+      # 4️⃣ Deploy to Combell via FTP
+      - name: 🚀 FTP Deploy to Combell
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp.didiervanasschecom.webhosting.be
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: /www/unwind/
           protocol: ftp
-          port: 21
+          local-dir: dist/
+          server-dir: /www/unwind/
           timeout: 60000
-          security: loose
+          dangerous-clean-slate: true
