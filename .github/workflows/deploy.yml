@@ -1,40 +1,41 @@
-name: Deploy Vue 3 App
-
+name: Deploy unwind Vue 3 App
 on:
   push:
     branches:
       - main
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
     steps:
       # 1. Haal de code op uit de repository
       - name: Checkout repository
-        uses: actions/checkout@v2
-
+        uses: actions/checkout@v4
+      
       # 2. Installeer Node.js
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 20.19.0
-
+          node-version: '20'
+          cache: 'npm'
+      
       # 3. Installeer dependencies
       - name: Install dependencies
-        run: npm install
-
+        run: npm ci
+      
       # 4. Build de applicatie
       - name: Build application
         run: npm run build
-
+      
       # 5. Upload naar de specifieke map op de FTP-server
       - name: Upload to FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp.didiervanasschecom.webhosting.be
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: /unwind/
-          sync: "true"
+          protocol: ftp
+          port: 21
+          timeout: 60000
+          security: loose
