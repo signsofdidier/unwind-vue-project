@@ -1,4 +1,4 @@
-name: Deploy Vue 3 App
+name: Deploy to Combell
 
 on:
   push:
@@ -10,31 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1. Haal de code op uit de repository
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      # 1️⃣ Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      # 2. Installeer Node.js
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      # 3. Installeer dependencies
+      # 2️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
 
-      # 4. Build de applicatie
-      - name: Build application
+      # 3️⃣ Build project
+      - name: Build project
         run: npm run build
 
-      # 5. Upload naar de specifieke map op de FTP-server
-      - name: Upload to FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      # 4️⃣ Deploy to Combell via FTP
+      - name: 🚀 FTP Deploy to Combell
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ftp.didiervanasschecom.webhosting.be
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: /unwind/
-          sync: "true"
+          protocol: ftp
+          local-dir: dist/
+          server-dir: /www/unwind/
+          timeout: 60000
+          dangerous-clean-slate: true
