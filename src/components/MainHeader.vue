@@ -12,7 +12,9 @@
                 >Enjoy Your Wonderful Holidays With A Great Luxury Experience!
               </span>
               <h1 class="fw-bold mt-2">Most Relaxing Place</h1>
-              <div class="cto-buttons mt-4">
+              <div
+                class="cto-buttons mt-4 d-flex justify-content-center flex-column flex-md-row gap-2"
+              >
                 <ButtonGold text="Take a tour" href="#" :arrow="true" />
                 <TransparentButton text="learn more" href="#" :arrow="true" />
               </div>
@@ -73,5 +75,11 @@ header {
 
 .cto-buttons a:hover i {
   transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 40px;
+  }
 }
 </style>

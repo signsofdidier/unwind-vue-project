@@ -22,6 +22,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <MainHeader />
+  <BookingForm />
   <AboutUs />
   <ServicesComponent />
   <SmallCtoComponent />
@@ -38,6 +39,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <script setup>
 import AboutUs from './components/AboutUs.vue';
 import BlogSection from './components/BlogSection.vue';
+import BookingForm from './components/BookingForm.vue';
 import CounterComponent from './components/CounterComponent.vue';
 import FeaturedRooms from './components/FeaturedRooms.vue';
 import FooterComponent from './components/FooterComponent.vue';

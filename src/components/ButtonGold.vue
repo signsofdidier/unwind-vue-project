@@ -3,7 +3,7 @@
     :is="to ? 'router-link' : 'a'"
     :to="to"
     :href="href"
-    class="btn bg-gold text-white fw-bold p-4 py-3 border rounded-0 text-uppercase d-inline-flex align-items-center gap-2"
+    class="btn bg-gold text-white fw-bold p-4 py-3 border rounded-0 text-uppercase justify-content-center align-items-center gap-2"
     >{{ text }} <i v-if="arrow" class="fi fi-rr-arrow-small-right"></i
   ></a>
 </template>
