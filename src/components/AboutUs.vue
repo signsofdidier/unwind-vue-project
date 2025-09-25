@@ -2,13 +2,15 @@
   <section class="about-section container-xl">
     <div class="row g-xl-5">
       <!-- About section service blocks -->
-      <div class="col-md-6">
+      <div class="col-lg-6 order-2 order-lg-1">
         <div class="row">
           <!-- service block 1 -->
           <div class="col-md-6">
             <!-- About Service block -->
-            <article class="about-services">
-              <div class="services w-100 p-4 text-center mb-md-4">
+            <article class="about-services d-flex flex-column">
+              <div
+                class="services w-100 p-4 text-center mb-4 order-2 order-md-1"
+              >
                 <img
                   class="icon mb-4"
                   src="/images/icons/pillow.svg"
@@ -23,7 +25,7 @@
               </div>
               <!-- Service block image -->
               <img
-                class="w-100 services-img"
+                class="w-100 services-img mb-4 order-1 order-md-2"
                 src="/images/f-services.jpg"
                 alt="Hotel service: Cozy room"
               />
@@ -37,7 +39,7 @@
             <article class="about-services">
               <!-- Service block image -->
               <img
-                class="w-100 services-img mb-md-4"
+                class="w-100 services-img mb-4"
                 src="/images/f-services-2.jpg"
                 alt="Hotel service: Special offers"
               />
@@ -62,7 +64,7 @@
 
       <!-- About section text block -->
       <div
-        class="col-md-6 d-flex flex-column justify-content-center align-items-start"
+        class="col-lg-6 d-flex flex-column justify-content-center align-items-start order-1 order-lg-1 p-5 p-lg-4 mb-4 mb-lg-0"
       >
         <span class="subheading mb-3 text-gold fw-bold text-uppercase"
           >About us</span
