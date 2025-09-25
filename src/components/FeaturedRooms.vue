@@ -95,6 +95,13 @@
 section {
   padding: 8em 0;
 }
+
+@media (max-width: 991px) {
+  section {
+    padding: 4em 0;
+  }
+}
+
 .featured-room-card {
   display: flex;
   flex-direction: column;

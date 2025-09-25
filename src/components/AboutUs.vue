@@ -91,6 +91,12 @@ import TransparentButton from './TransparentButton.vue';
   padding: 8em 0;
 }
 
+@media (max-width: 991px) {
+  .about-section {
+    padding: 4em 0;
+  }
+}
+
 .about-section .icon {
   width: 60px;
   height: 61px;

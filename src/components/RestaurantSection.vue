@@ -64,6 +64,13 @@ onMounted(async () => {
 .restaurant-section {
   padding: 8em 0;
 }
+
+@media (max-width: 991px) {
+  .restaurant-section {
+    padding: 6em 0;
+  }
+}
+
 .menu-big-image {
   position: relative;
   /* max-height: 536px; */
@@ -89,6 +96,19 @@ onMounted(async () => {
   height: 120px;
   background-color: var(--gold);
   border-radius: 5px;
+}
+
+@media (max-width: 1199px) {
+  .restaurant-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 120px;
+    background-color: var(--gold);
+    border-radius: 5px;
+  }
 }
 
 .restaurant-icon .icon {

@@ -106,6 +106,11 @@ import CosmeticsIcon from '@/assets/icons/cosmetics.svg';
 .services-section {
   padding: 8em 0;
 }
+@media (max-width: 991px) {
+  .services-section {
+    padding: 4em 0;
+  }
+}
 .services-balloon {
   width: 200px;
   height: 200px;

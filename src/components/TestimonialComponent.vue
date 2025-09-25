@@ -25,4 +25,10 @@ import CardSwiper from './CardSwiper.vue';
 .testimonial-section {
   padding: 8em 0;
 }
+
+@media (max-width: 991px) {
+  .testimonial-section {
+    padding: 4em 0;
+  }
+}
 </style>

@@ -28,6 +28,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: var(--body-white);
+  overflow-x: hidden !important;
 }
 
 /* Font-families */

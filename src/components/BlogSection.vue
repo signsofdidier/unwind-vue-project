@@ -27,4 +27,10 @@ import BlogCard from './BlogCard.vue';
 section.blog-section {
   padding: 8em 0;
 }
+
+@media (max-width: 991px) {
+  section.blog-section {
+    padding: 6em 0;
+  }
+}
 </style>

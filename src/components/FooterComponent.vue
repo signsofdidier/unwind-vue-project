@@ -2,7 +2,7 @@
   <footer>
     <div class="footer-top">
       <div class="container-xl">
-        <div class="row d-flex justify-content-between">
+        <div class="row d-flex justify-content-between px-4 px-lg-0">
           <div class="col-md-6 col-lg-3">
             <!-- Navbar brand logo -->
             <a class="navbar-brand" href="#">
@@ -30,7 +30,7 @@
           </div>
 
           <!-- Services -->
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-4 mt-5 mt-lg-0">
             <h2>Services</h2>
             <div class="row g-0 footer-list-items">
               <div class="col-lg-6">
@@ -83,7 +83,7 @@
           </div>
 
           <!-- Quick links -->
-          <div class="col-md-6 col-lg-2 footer-list-items">
+          <div class="col-md-6 col-lg-2 footer-list-items mt-5 mt-lg-0">
             <h2>Quick Links</h2>
             <ul>
               <li>
@@ -102,7 +102,7 @@
           </div>
 
           <!-- Have a question? -->
-          <div class="col-md-6 col-lg-3 footer-list-items">
+          <div class="col-md-6 col-lg-3 footer-list-items mt-5 mt-lg-0">
             <h2>Have a Question?</h2>
             <ul>
               <li>
@@ -130,7 +130,7 @@
     </div>
 
     <!-- Footer bottom -->
-    <div class="footer-bottom">
+    <div class="footer-bottom px-3 px-lg-0">
       <div class="container-xl">
         <div class="row">
           <div class="col-12">
@@ -157,6 +157,12 @@
 footer .footer-top {
   padding: 8em 0;
   background-color: rgb(26, 26, 26);
+}
+
+@media (max-width: 991px) {
+  footer .footer-top {
+    padding: 4em 0;
+  }
 }
 
 .navbar-brand {
