@@ -5,17 +5,15 @@
     :key="index"
     class="col-md-6"
   >
-    <div
-      class="menu-card d-flex align-items-center p-4"
-      data-aos="fade-left"
-      :data-aos-delay="isMobile ? 0 : index * 100"
-    >
-      <!-- image -->
-      <img class="img-fluid" :src="item.image" :alt="item.name" />
-      <!-- text -->
-      <div class="w-100 d-flex justify-content-between">
-        <h3 class="ps-3">{{ item.name }}</h3>
-        <span class="price">{{ item.price }}</span>
+    <div data-aos="fade-left" :data-aos-delay="isMobile ? 0 : index * 100">
+      <div class="menu-card d-flex align-items-center p-4">
+        <!-- image -->
+        <img class="img-fluid" :src="item.image" :alt="item.name" />
+        <!-- text -->
+        <div class="w-100 d-flex justify-content-between">
+          <h3 class="ps-3">{{ item.name }}</h3>
+          <span class="price">{{ item.price }}</span>
+        </div>
       </div>
     </div>
   </div>

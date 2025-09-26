@@ -1,13 +1,12 @@
 <template>
   <header>
     <section class="hero-section">
-      <NavbarComponent />
       <div
         class="hero-section-content d-flex align-items-center justify-content-center"
       >
         <div class="container-xl">
           <div class="row justify-content-center align-items-center">
-            <div class="col-lg-10 text-center">
+            <div class="hero-section-content-text col-lg-10 text-center">
               <span class="subheading text-uppercase fw-bold"
                 >Enjoy Your Wonderful Holidays With A Great Luxury Experience!
               </span>
@@ -28,7 +27,6 @@
 
 <script setup>
 import ButtonGold from './ButtonGold.vue';
-import NavbarComponent from './NavbarComponent.vue';
 import TransparentButton from './TransparentButton.vue';
 </script>
 
@@ -45,6 +43,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  background-attachment: fixed;
   width: 100%;
   color: #fff;
 }
@@ -52,6 +51,19 @@ header {
 .hero-section-content {
   width: 100%;
   min-height: calc(100vh - 90px);
+}
+
+.hero-section-content-text {
+  margin-top: 180px;
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    min-height: calc(100vh - 100px);
+  }
+  .hero-section-content-text {
+    margin-top: 0;
+  }
 }
 
 .subheading {

@@ -1,16 +1,6 @@
 <template>
   <section>
     <div class="container-xl">
-      <!-- titles -->
-      <div class="row justify-content-center mb-5">
-        <div class="col-xl-8 text-center mb-3" data-aos="fade-up">
-          <span class="subheader text-gold text-uppercase fw-bold"
-            >Our rooms</span
-          >
-          <h2 class="mt-3">Featured Rooms</h2>
-        </div>
-      </div>
-
       <!-- features -->
       <div class="row">
         <!-- feature card -->
@@ -88,7 +78,113 @@
           </div>
         </div>
         <!-- end featured card -->
+
+        <!-- feature card -->
+        <div class="col-xl-4 mb-4 mb-lg-5 md-xl-0" data-aos="flip-left">
+          <div class="featured-room-card">
+            <!-- text -->
+            <div class="featured-room-card-info text-center p-5 order-xl-1">
+              <h3>Classic Room</h3>
+              <p class="featured-room-text mt-3 mb-4">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div>
+                <span class="night-price me-4">$450 / night</span>
+                <a class="night-btn" href="#">Book now</a>
+              </div>
+            </div>
+            <!-- image -->
+            <div class="featered-room-image order-xl-2">
+              <div class="overlay"></div>
+              <img class="" src="/images/room-4.jpg" alt="Suite Room" />
+            </div>
+          </div>
+        </div>
+        <!-- end featured card -->
+
+        <!-- feature card -->
+        <div
+          class="col-xl-4 mb-4 mb-lg-5 md-xl-0"
+          data-aos="flip-left"
+          data-aos-delay="100"
+        >
+          <div class="featured-room-card">
+            <!-- text -->
+            <div class="featured-room-card-info text-center p-5 order-xl-2">
+              <h3>Superior Room</h3>
+              <p class="featured-room-text mt-3 mb-4">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div>
+                <span class="night-price me-4">$450 / night</span>
+                <a class="night-btn" href="#">Book now</a>
+              </div>
+            </div>
+            <!-- image -->
+            <div class="featered-room-image order-xl-1">
+              <div class="overlay"></div>
+              <img class="" src="/images/room-5.jpg" alt="Suite Room" />
+            </div>
+          </div>
+        </div>
+        <!-- end featured card -->
+
+        <!-- feature card -->
+        <div class="col-xl-4" data-aos="flip-left" data-aos-delay="200">
+          <div class="featured-room-card">
+            <!-- text -->
+            <div class="featured-room-card-info text-center p-5 order-xl-1">
+              <h3>Luxyury Room</h3>
+              <p class="featured-room-text mt-3 mb-4">
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div>
+                <span class="night-price me-4">$450 / night</span>
+                <a class="night-btn" href="#">Book now</a>
+              </div>
+            </div>
+            <!-- image -->
+            <div class="featered-room-image order-xl-2">
+              <div class="overlay"></div>
+              <img class="" src="/images/room-6.jpg" alt="Suite Room" />
+            </div>
+          </div>
+        </div>
+        <!-- end featured card -->
       </div>
+
+      <!-- Pagination -->
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center mt-5">
+          <nav aria-label="Page navigation example">
+            <ul class="pagination gap-1">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true"
+                    ><i class="bi bi-caret-left-fill"></i
+                  ></span>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link active" href="#">1</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true"
+                    ><i class="bi bi-caret-right-fill"></i
+                  ></span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- END Pagination -->
     </div>
   </section>
 </template>
@@ -172,5 +268,26 @@ p.featured-room-text {
 .featured-room-card a,
 .overlay {
   transition: all 0.3s ease; /* zorgt voor soepele animatie */
+}
+
+/* Pagination */
+.pagination .page-link {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background: transparent;
+}
+.pagination .page-link i {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.pagination a {
+  color: black;
+}
+
+.pagination .page-link.active {
+  color: #fff;
+  background: var(--gold) !important;
+  border: none;
 }
 </style>

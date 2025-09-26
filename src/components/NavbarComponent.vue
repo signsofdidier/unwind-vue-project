@@ -2,16 +2,16 @@
   <nav class="navbar navbar-expand-lg navbar-dark pt-lg-4">
     <div class="container-xl py-3 py-lg-0">
       <!-- Navbar brand logo -->
-      <a class="navbar-brand" href="#">
+      <router-link class="navbar-brand" to="/">
         <span class="d-flex flex-column">
           Unwind
           <small>Hotel Booking</small>
         </span>
-      </a>
+      </router-link>
 
       <!-- Hamburger icon -->
       <button
-        class="navbar-toggler text-uppercase fw-bold d-flex align-items-center gap-2"
+        class="navbar-toggler d-lg-none text-uppercase fw-bold d-flex align-items-center gap-2"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"
@@ -26,22 +26,24 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <router-link class="nav-link" to="/about">About</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Rooms</a>
+            <router-link class="nav-link" to="/rooms">Rooms</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resto & Bar</a>
+            <router-link class="nav-link" to="/resto-bar"
+              >Resto & Bar</router-link
+            >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <router-link class="nav-link" to="/blog">Blog</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <router-link class="nav-link" to="/contact">Contact</router-link>
           </li>
         </ul>
       </div>
@@ -53,6 +55,9 @@
 
 <style scoped>
 .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 1000;
   background: transparent !important;
@@ -97,6 +102,7 @@
 
 @media (max-width: 991px) {
   .navbar {
+    position: relative;
     background: var(--black) !important;
   }
   .navbar ul {
@@ -107,7 +113,7 @@
     font-family: var(--nunito);
     font-weight: 700;
     color: #fff;
-    padding: 0 10px 20px;
+    padding: 0 10px 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
   }
