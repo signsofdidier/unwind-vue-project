@@ -9,7 +9,6 @@
 
 <script setup>
 import FooterComponent from './components/FooterComponent.vue';
-import MainHeader from './components/MainHeader.vue';
 import NavbarComponent from './components/NavbarComponent.vue';
 import ScrollToTop from './components/ScrollToTop.vue';
 </script>
