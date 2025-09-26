@@ -9,7 +9,7 @@
         ><img :src="item.image" class="card-img-top rounded-0" :alt="item.name"
       /></a>
       <div class="card-body p-4 d-flex flex-column w-100">
-        <p class="author-info d-flex justify-content-between mb-">
+        <p class="author-info d-flex justify-content-between">
           <span class="fw-bold text-gray">{{ item.author }}</span>
           <span class="text-gold">{{ item.created_at }}</span>
         </p>

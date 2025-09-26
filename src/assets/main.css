@@ -29,6 +29,15 @@ body {
   margin: 0;
   background-color: var(--body-white);
   overflow-x: hidden !important;
+  max-width: 100vw;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 /* Font-families */

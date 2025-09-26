@@ -6,7 +6,7 @@
         <div
           v-for="(counter, index) in counterList"
           :key="index"
-          class="counter-list col-6 col-lg-3 text-center"
+          class="counter-list col-12 col-md-6 col-lg-3 text-center"
         >
           <div class="d-flex flex-column text-center">
             <span class="number text-gold fw-bold">{{
@@ -96,6 +96,11 @@ section.counter-section {
 
 .counter-list {
   padding: 90px 40px;
+}
+@media (max-width: 991px) {
+  .counter-list {
+    padding: 50px 0;
+  }
 }
 
 .counter-list .number {

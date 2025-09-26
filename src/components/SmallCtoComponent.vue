@@ -2,7 +2,7 @@
   <section>
     <div class="container-xl">
       <div class="row justify-content-center py-5">
-        <div class="col-xl-8">
+        <div class="col-11 col-xl-8">
           <div class="row align-items-center">
             <div class="col-xl-8">
               <span class="subheading text-gold fw-bold text-uppercase"

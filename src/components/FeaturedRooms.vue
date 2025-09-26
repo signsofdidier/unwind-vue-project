@@ -14,7 +14,7 @@
       <!-- features -->
       <div class="row">
         <!-- feature card -->
-        <div class="col-xl-4">
+        <div class="col-xl-4 mb-4 mb-lg-5 md-xl-0">
           <div class="featured-room-card">
             <!-- text -->
             <div class="featured-room-card-info text-center p-5 order-xl-1">
@@ -38,7 +38,7 @@
         <!-- end featured card -->
 
         <!-- feature card -->
-        <div class="col-xl-4">
+        <div class="col-xl-4 mb-4 mb-lg-5 md-xl-0">
           <div class="featured-room-card">
             <!-- text -->
             <div class="featured-room-card-info text-center p-5 order-xl-2">

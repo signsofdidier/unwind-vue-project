@@ -29,7 +29,7 @@
         </div>
 
         <!-- Menu cards col -->
-        <div class="col-md-12 col-xl-7 ps-xl-5">
+        <div class="col-md-12 col-xl-7 ps-xl-5 mt-3 mt-xl-0">
           <div class="row g-md-2">
             <!-- Menu Card -->
             <MenuCard :items="menuItems" />
@@ -63,6 +63,7 @@ onMounted(async () => {
 <style scoped>
 .restaurant-section {
   padding: 8em 0;
+  overflow-x: hidden;
 }
 
 @media (max-width: 991px) {

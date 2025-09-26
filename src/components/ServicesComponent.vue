@@ -15,7 +15,7 @@
       <div class="row">
         <!-- Ballon -->
         <div
-          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-4"
+          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -28,7 +28,7 @@
 
         <!-- Ballon -->
         <div
-          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-4"
+          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -41,7 +41,7 @@
 
         <!-- Ballon -->
         <div
-          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-4"
+          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -54,7 +54,7 @@
 
         <!-- Ballon -->
         <div
-          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-4"
+          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -67,7 +67,7 @@
 
         <!-- Ballon -->
         <div
-          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-4"
+          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -80,7 +80,7 @@
 
         <!-- Ballon -->
         <div
-          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-4"
+          class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
