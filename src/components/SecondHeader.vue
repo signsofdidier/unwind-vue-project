@@ -89,6 +89,12 @@ header {
   color: #fff;
 }
 
+@media (max-width: 991px) {
+  .hero-section {
+    background-attachment: scroll;
+  }
+}
+
 .hero-section h1 {
   font-size: 70px;
 }
