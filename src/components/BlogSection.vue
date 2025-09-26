@@ -3,7 +3,7 @@
     <div class="container-xl">
       <!-- Titels -->
       <div class="row justify-content-center mb-5">
-        <div class="col-md-8 text-center">
+        <div class="col-md-8 text-center" data-aos="fade-up">
           <div class="subheading fw-bold text-uppercase text-gold mb-3">
             Our Blog
           </div>

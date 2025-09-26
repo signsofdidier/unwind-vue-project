@@ -3,7 +3,7 @@
     <div class="container-xl">
       <!-- subheading en titel -->
       <div class="row justify-content-center">
-        <div class="col-md-8 text-center mb-5">
+        <div class="col-md-8 text-center mb-5" data-aos="fade-up">
           <span class="subheading text-gold fw-bold text-uppercase"
             >Unwind Services</span
           >
@@ -16,6 +16,7 @@
         <!-- Ballon -->
         <div
           class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
+          data-aos="fade-up"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -29,6 +30,8 @@
         <!-- Ballon -->
         <div
           class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
+          data-aos="fade-up"
+          data-aos-delay="100"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -42,6 +45,8 @@
         <!-- Ballon -->
         <div
           class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
+          data-aos="fade-up"
+          data-aos-delay="200"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -55,6 +60,8 @@
         <!-- Ballon -->
         <div
           class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
+          data-aos="fade-up"
+          data-aos-delay="300"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -68,6 +75,8 @@
         <!-- Ballon -->
         <div
           class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
+          data-aos="fade-up"
+          data-aos-delay="400"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">
@@ -81,6 +90,8 @@
         <!-- Ballon -->
         <div
           class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center text-center mt-5"
+          data-aos="fade-up"
+          data-aos-delay="500"
         >
           <div href="#" class="services-balloon text-center">
             <div class="">

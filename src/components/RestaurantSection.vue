@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <!-- Titel -->
       <div class="row justify-content-center mb-5">
-        <div class="col-md-8 text-center">
+        <div class="col-md-8 text-center" data-aos="fade-up">
           <div class="subheader fw-semibold text-uppercase text-gold mb-3">
             Resto & Bar
           </div>
@@ -16,6 +16,7 @@
         <!-- Big image left -->
         <div
           class="menu-big-image col-md-12 col-xl-5 d-flex align-items-stretch"
+          data-aos="fade-right"
         >
           <img
             class="w-100"

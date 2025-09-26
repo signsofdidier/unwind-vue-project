@@ -1,7 +1,13 @@
+// Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import 'bootstrap-icons/font/bootstrap-icons.min.css';
+// Flaticon uicons
 import '@flaticon/flaticon-uicons/css/all/all.css';
+// AOS
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// Main css
 import './assets/main.css';
 
 import { createApp } from 'vue';
@@ -34,6 +40,13 @@ app.config.globalProperties.$glightbox = lightbox;
 // Swiper globaal registreren
 app.component('Swiper', Swiper);
 app.component('SwiperSlide', SwiperSlide);
+
+// Aos
+// Initieer AOS
+AOS.init({
+  duration: 1300,
+  once: true,
+});
 
 app.use(createPinia());
 app.use(router);

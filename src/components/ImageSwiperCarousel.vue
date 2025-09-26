@@ -18,7 +18,11 @@
           class="mySwiper"
         >
           <swiper-slide v-for="(item, index) in carouselItems" :key="index">
-            <div class="slider-image">
+            <div
+              class="slider-image"
+              data-aos="fade-up"
+              :data-aos-delay="isMobile ? 0 : index * 100"
+            >
               <a
                 class="overlay d-flex justify-content-center align-items-center gallery-lightbox"
                 :href="item.image"
@@ -41,8 +45,12 @@ import 'glightbox/dist/css/glightbox.css';
 
 const modules = [Pagination, Autoplay];
 
+const isMobile = ref(false);
+
 // Maak nieuwe selector die je gebruikt in de html om te targetten
 onMounted(() => {
+  isMobile.value = window.innerWidth < 768;
+
   const lightbox = Glightbox({
     selector: '.gallery-lightbox', // alleen deze class
     touchNavigation: true,

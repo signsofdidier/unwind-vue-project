@@ -2,7 +2,7 @@
   <section class="about-section container-xl">
     <div class="row g-xl-5">
       <!-- About section service blocks -->
-      <div class="col-lg-6 order-2 order-lg-1">
+      <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-up">
         <div class="row">
           <!-- service block 1 -->
           <div class="col-md-6">
@@ -65,6 +65,8 @@
       <!-- About section text block -->
       <div
         class="col-lg-6 d-flex flex-column justify-content-center align-items-start order-1 order-lg-1 p-5 p-lg-4 mb-4 mb-lg-0"
+        data-aos="fade-up"
+        data-aos-delay="200"
       >
         <span class="subheading mb-3 text-gold fw-bold text-uppercase"
           >About us</span

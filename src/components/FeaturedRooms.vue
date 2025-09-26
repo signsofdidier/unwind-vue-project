@@ -3,7 +3,7 @@
     <div class="container-xl">
       <!-- titles -->
       <div class="row justify-content-center mb-5">
-        <div class="col-xl-8 text-center mb-3">
+        <div class="col-xl-8 text-center mb-3" data-aos="fade-up">
           <span class="subheader text-gold text-uppercase fw-bold"
             >Our rooms</span
           >
@@ -14,7 +14,7 @@
       <!-- features -->
       <div class="row">
         <!-- feature card -->
-        <div class="col-xl-4 mb-4 mb-lg-5 md-xl-0">
+        <div class="col-xl-4 mb-4 mb-lg-5 md-xl-0" data-aos="flip-left">
           <div class="featured-room-card">
             <!-- text -->
             <div class="featured-room-card-info text-center p-5 order-xl-1">
@@ -38,7 +38,11 @@
         <!-- end featured card -->
 
         <!-- feature card -->
-        <div class="col-xl-4 mb-4 mb-lg-5 md-xl-0">
+        <div
+          class="col-xl-4 mb-4 mb-lg-5 md-xl-0"
+          data-aos="flip-left"
+          data-aos-delay="100"
+        >
           <div class="featured-room-card">
             <!-- text -->
             <div class="featured-room-card-info text-center p-5 order-xl-2">
@@ -62,7 +66,7 @@
         <!-- end featured card -->
 
         <!-- feature card -->
-        <div class="col-xl-4">
+        <div class="col-xl-4" data-aos="flip-left" data-aos-delay="200">
           <div class="featured-room-card">
             <!-- text -->
             <div class="featured-room-card-info text-center p-5 order-xl-1">

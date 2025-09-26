@@ -5,7 +5,11 @@
     :key="index"
     class="col-md-6"
   >
-    <div class="menu-card d-flex align-items-center p-4">
+    <div
+      class="menu-card d-flex align-items-center p-4"
+      data-aos="fade-left"
+      :data-aos-delay="isMobile ? 0 : index * 100"
+    >
       <!-- image -->
       <img class="img-fluid" :src="item.image" :alt="item.name" />
       <!-- text -->
@@ -19,7 +23,13 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue';
+import { defineProps, onMounted, ref } from 'vue';
+
+const isMobile = ref(false);
+
+onMounted(() => {
+  isMobile.value = window.innerWidth < 768;
+});
 
 const props = defineProps({
   items: {

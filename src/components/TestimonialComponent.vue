@@ -3,7 +3,11 @@
     <div class="container-xl">
       <!-- titels -->
       <div class="row justify-content-center mb-5">
-        <div class="col-xl-8 text-center">
+        <div
+          class="col-xl-8 text-center"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           <div class="subheading text-uppercase text-gold fw-semibold mb-3">
             Testimonial
           </div>
@@ -12,7 +16,7 @@
       </div>
 
       <!-- Swiper slider -->
-      <CardSwiper />
+      <CardSwiper data-aos="fade-up" data-aos-delay="400" />
     </div>
   </section>
 </template>

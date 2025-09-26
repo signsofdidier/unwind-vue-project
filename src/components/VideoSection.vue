@@ -5,7 +5,7 @@
         <div
           class="video-section-height col-md-10 d-flex justify-content-center align-items-center text-center"
         >
-          <div>
+          <div data-aos="fade-up">
             <div class="subheading mb-3">Watch our luxurious hotel</div>
             <h3 class="mb-3">Take A Tour</h3>
             <PlayButton />

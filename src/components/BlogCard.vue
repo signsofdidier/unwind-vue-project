@@ -1,8 +1,10 @@
 <template>
   <div
-    v-for="item in blogItems.slice(-4)"
+    v-for="(item, i) in blogItems.slice(-4)"
     :key="item.id"
     class="col-md-6 col-xl-3 mb-4 mb-lg-0 d-flex"
+    data-aos="fade-up"
+    :data-aos-delay="isMobile ? 0 : i * 100"
   >
     <div class="card border-0 rounded-0 d-flex flex-column w-100">
       <a href="#" class="card-image-link"
@@ -27,8 +29,11 @@ import { onMounted, ref } from 'vue';
 import axios from 'axios';
 
 const blogItems = ref([]);
+const isMobile = ref(false);
 
 onMounted(async () => {
+  isMobile.value = window.innerWidth < 768;
+
   try {
     // BASE_URL verwijst naar '/root/' in mijn setup
     const response = await axios.get('./blogs.json');
