@@ -39,7 +39,7 @@ header {
   min-height: 100vh;
   background-color: var(--dark-gray);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('./images/bg_1.jpg');
+    url('/images/bg_1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -60,7 +60,9 @@ header {
 @media (max-width: 991px) {
   .hero-section {
     min-height: calc(100vh - 100px);
+    background-attachment: scroll;
   }
+
   .hero-section-content-text {
     margin-top: 0;
   }
@@ -73,7 +75,7 @@ header {
 .cto-buttons a {
   font-size: 12px;
   font-family: var(--nunito);
-  font-weight: 700px;
+  font-weight: 700;
   letter-spacing: 1px;
 }
 

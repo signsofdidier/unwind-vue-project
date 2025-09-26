@@ -81,7 +81,7 @@ header {
   height: 700px;
   background-color: var(--dark-gray);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('./images/bg_3.jpg');
+    url('/images/bg_3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
