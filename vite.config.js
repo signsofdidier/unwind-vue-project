@@ -7,7 +7,6 @@ import vueDevTools from 'vite-plugin-vue-devtools';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/unwind/',
   plugins: [vue(), vueDevTools(), svgLoader()],
   resolve: {
     alias: {
